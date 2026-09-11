@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Academia Industry Portal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>SkillBridge</h1>
+
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#skills">Skills</a>
+            <a href="#internship">Internships</a>
+            <a href="#placement">Placements</a>
+        </nav>
+    </header>
+
+
+    <!-- HOME -->
+
+    <section id="home" class="home">
+
+        <div>
+            <h2>Academia – Industry Collaboration Portal</h2>
+
+            <p>
+                Connecting students with industries through
+                skill mapping, internships and placements.
+            </p>
+
+            <button onclick="showMessage()">
+                Get Started
+            </button>
+        </div>
+
+    </section>
+
+
+    <!-- SKILL MAPPING -->
+
+    <section id="skills">
+
+        <h2>Skill Mapping</h2>
+
+        <p>Check your current skills and industry readiness.</p>
+
+        <div class="skill-box">
+
+            <label>HTML</label>
+            <div class="bar">
+                <div class="html"></div>
+            </div>
+
+            <label>CSS</label>
+            <div class="bar">
+                <div class="css"></div>
+            </div>
+
+            <label>JavaScript</label>
+            <div class="bar">
+                <div class="javascript"></div>
+            </div>
+
+            <label>Python</label>
+            <div class="bar">
+                <div class="python"></div>
+            </div>
+
+        </div>
+
+        <button onclick="checkSkills()">
+            Check Skill Gap
+        </button>
+
+    </section>
+
+
+    <!-- INTERNSHIPS -->
+
+    <section id="internship">
+
+        <h2>Internship Opportunities</h2>
+
+        <div class="cards">
+
+            <div class="card">
+
+                <h3>Web Development Intern</h3>
+
+                <p>Company: Tech Solutions</p>
+
+                <p>Location: Chennai</p>
+
+                <button onclick="apply('Web Development Internship')">
+                    Apply
+                </button>
+
+            </div>
+
+
+            <div class="card">
+
+                <h3>AI & ML Intern</h3>
+
+                <p>Company: AI Labs</p>
+
+                <p>Location: Bangalore</p>
+
+                <button onclick="apply('AI & ML Internship')">
+                    Apply
+                </button>
+
+            </div>
+
+
+            <div class="card">
+
+                <h3>Data Science Intern</h3>
+
+                <p>Company: Data World</p>
+
+                <p>Location: Hyderabad</p>
+
+                <button onclick="apply('Data Science Internship')">
+                    Apply
+                </button>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- PLACEMENTS -->
+
+    <section id="placement">
+
+        <h2>Placement Opportunities</h2>
+
+        <table>
+
+            <tr>
+                <th>Company</th>
+                <th>Job Role</th>
+                <th>Package</th>
+                <th>Action</th>
+            </tr>
+
+            <tr>
+                <td>Tech Solutions</td>
+                <td>Software Developer</td>
+                <td>₹6 LPA</td>
+
+                <td>
+                    <button onclick="apply('Software Developer')">
+                        Apply
+                    </button>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td>AI Labs</td>
+                <td>AI Engineer</td>
+                <td>₹8 LPA</td>
+
+                <td>
+                    <button onclick="apply('AI Engineer')">
+                        Apply
+                    </button>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td>Data World</td>
+                <td>Data Analyst</td>
+                <td>₹7 LPA</td>
+
+                <td>
+                    <button onclick="apply('Data Analyst')">
+                        Apply
+                    </button>
+                </td>
+            </tr>
+
+        </table>
+
+    </section>
+
+
+    <!-- FOOTER -->
+
+    <footer>
+
+        <h3>SkillBridge</h3>
+
+        <p>
+            Bridging the gap between Academia and Industry.
+        </p>
+
+        <p>© 2026 SkillBridge</p>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
